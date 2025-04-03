@@ -1,0 +1,103 @@
+/*공통설정*/
+body {
+  font-family: "Airbnb Cereal VF", "Circular", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  background-color: #fff;
+  color:#222222;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.43;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*헤더*/
+.header {
+  text-align: left;
+  margin: 0 0 10px 20px;
+}
+
+h1, h4 {
+  margin: 10px 0;
+  color: #333;
+}
+
+/*카드 컨테이너*/
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*카드 스타일*/
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  margin: 10px;
+}
+
+.card img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 16px;   /*모서리 둥글게*/
+}
+
+/*카드 내용*/
+.card-content {
+  padding: 15px;
+}
+
+/*제목, 별점*/
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.card-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  color:#333;
+}
+
+/*평점*/
+.card-rating {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #333;
+}
+
+
+/*카드 정보*/
+.card-info {
+  font-size: 0.9em;
+  color: #717171;
+  margin: 3px 0;
+}
+
+/*가격*/
+.card-price {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #222;
+}
+
+/*버튼*/
+button {
+  padding: 10px 20px;
+  font-size: 0.9em;
+  background-color: #fff;
+  color:#222;
+  border: 1px solid #222;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-right:5px;
+  margin-top:10px;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
