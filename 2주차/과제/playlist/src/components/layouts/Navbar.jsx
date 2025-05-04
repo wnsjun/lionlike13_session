@@ -7,10 +7,10 @@ export const Navbar = () => {
         <Link to="/" className="font-semibold text-2xl">
           Playlist 🎧
         </Link>
-        <Link to="/top100">Top 100</Link>
-        <Link to="/mypage">My Page</Link>
+        <Link to="/top100" className="font-bold">Top 100</Link>
+        <Link to="/mypage" className="font-bold">My Page</Link>
       </div>
-      <Link to="/login">Login</Link>
+      <Link to="/login" className="font-bold">Login</Link>
     </nav>
   );
 };
