@@ -4,7 +4,7 @@ import WeatherCard from '../components/WeatherCard';
 import RecentList from '../components/RecentList';
 
 const Home = () => {
-  const [city, setCity] = useState('Seoul');
+  const [city, setCity] = useState('Seoul'); 
   const [recentCities, setRecentCities] = useState([]);
 
   // TODO: 최근 검색 도시(localStorage) 불러오기

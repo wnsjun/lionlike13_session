@@ -1,21 +1,21 @@
 import albumData from '../data/song.json';
-import {Modal} from "../components/layouts/Modal";
-import {useState} from 'react';
+import { Modal } from '../components/layouts/Modal';
+import { useState } from 'react';
 
 export const Playlist = () => {
-  const [initImage, setImage]=useState(null);
+  const [initImage, setImage] = useState();
 
   return (
     <main className="p-10 grid grid-cols-4 gap-6">
       {albumData.map((song, id) => (
-        <section 
+        <section
           key={id}
-          className="w-100 cursor-pointer bg-cyan-400 hover:bg-pink-300 p-6 rounded-xl hover:shadow-2xl" 
+          className="cursor-pointer bg-cyan-400 hover:bg-pink-300 p-6 rounded-xl hover:shadow-2xl"
         >
           <img
             src={song.albumImage}
             alt={`${song.title} 앨범 커버`}
-            className="w-full h-90 rounded mb-4"
+            className="w-full h-60 object-cover rounded mb-4"
             onClick={() => setImage(song.albumImage)}
           />
           <h2 className="text-2xl font-semibold">{song.title}</h2>
@@ -29,7 +29,7 @@ export const Playlist = () => {
         </section>
       ))}
       {initImage && (
-        <Modal imageUrl={initImage} onClose={() => setImage(null)} />
+        <Modal imageUrl={initImage} onClose={() => setImage()} />
       )}
     </main>
   );
