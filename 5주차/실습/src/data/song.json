@@ -1,0 +1,32 @@
+[{
+  "albumImage": "/src/assets/rebel-heart.jpeg",
+  "releaseDate": "2025-01-13",
+  "artist": "IVE",
+  "title": "REBEL HEART",
+  "lyricist": "Nietzsche",
+  "composer": "Emily Harbakk"
+},
+{
+  "albumImage": "/src/assets/Change.jpg",
+  "releaseDate": "2021-04-20",
+  "artist": "PENOMECO",
+  "title": "Change",
+  "lyricist": "PENOMECO, sogumm",
+  "composer": "PENOMECO, sogumm, WOOGIE"
+},
+{
+  "albumImage": "/src/assets/Joker.jpg",
+  "releaseDate": "2021-02-25",
+  "artist": "Big Naughty",
+  "title": "Joker",
+  "lyricist": "Big Naughty, JAMIE",
+  "composer": "Noden, BiG Naughty"
+},
+{
+  "albumImage": "/src/assets/seasons.jpg",
+  "releaseDate": "2020-08-04",
+  "artist": "wave to earth",
+  "title": "seasons",
+  "lyricist": "김다니엘",
+  "composer": "김다니엘, 신동규"
+}]
