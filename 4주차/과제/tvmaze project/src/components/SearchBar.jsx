@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
 const SearchBar = ({ onSearch }) => {
-  const [query, setQuery] = useState('');
+  const [search, setSearch] = useState('');
 
   const handleSearch = () => {
-    if (query.trim()) onSearch(query);
+    if (search.trim()) onSearch(search);
   };
 
   return (
@@ -14,8 +14,8 @@ const SearchBar = ({ onSearch }) => {
           type="text"
           className="p-2 border rounded w-80 focus:outline-none focus:ring-2 focus:ring-blue-500"
           placeholder="Search TV Shows"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
           onKeyDown={(e) => {
             if (e.key === 'Enter') handleSearch();
           }}
