@@ -1,5 +1,3 @@
-/* eslint-disable react/prop-types */  //ESLint 경고 끄기
-
 export const Modal = ({ imageUrl, onClose }) => {
 
   // 모달 바깥을 클릭하면 닫히도록 처리
