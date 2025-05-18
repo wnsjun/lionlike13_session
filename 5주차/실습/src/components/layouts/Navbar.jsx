@@ -36,7 +36,7 @@ export const Navbar = () => {
 
       {/* Mobile Sidebar */}
       <div className={`dt:hidden ph:fixed top-0 right-0 h-full w-64 bg-black transform transition-transform duration-100
-        ease-in-out ${isOpen ? 'translate-x-0':'translate-x-full'}z-40`}>
+        ease-in-out ${isOpen ? 'translate-x-0':'translate-x-full'} z-40`}>
         <div className="flex flex-col items-center pt-24 space-y-6">
           <Link to="/top100" className="text-white" >Top 100</Link>
           <Link to="/mypage" className="text-white" >My Page</Link>
