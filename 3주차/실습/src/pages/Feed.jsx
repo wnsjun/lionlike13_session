@@ -26,7 +26,7 @@ export const Feed = () => {
     }
 
     return (
-      <main className="w-full h-[602px] bg-white flex flex-col border-t border-b border -[#AEAEAE];">
+      <main className="w-full h-[602px] bg-white flex flex-col border-t border-b border -[#AEAEAE]">
         <FeedHeader profile={feedData[0].profile} name={feedData[0].name} date={feedData[0].date}/>
         <FeedImage feedImg={feedData[0].feedImg} />
         <FeedAction likes={feedData[0].likes} onLike={handleLike}/>
